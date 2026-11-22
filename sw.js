@@ -7,7 +7,7 @@
    - CDN (font, xlsx, pdf)      : stale-while-revalidate
    Naikkan VERSI setiap merilis frontend baru.
    ============================================================ */
-const VERSI = '2.0.0';
+const VERSI = '2.0.1';
 const CACHE = 'sa-app-' + VERSI, CACHE_CDN = 'sa-cdn-v1';
 const V = '?v=' + VERSI;
 const ASET = ['./', './index.html', './manifest.json', './css/app.css' + V,

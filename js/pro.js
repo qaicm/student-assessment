@@ -454,7 +454,7 @@ registerPage('sistem', {
 /* ============================================================
    PWA — pasang di HP + pembaruan versi
    ============================================================ */
-const APP_VER = '2.0.0';
+const APP_VER = '2.0.1';
 const PWA = {
   deferred: null, reg: null,
   standalone: () => window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true,
